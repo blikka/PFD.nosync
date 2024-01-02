@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{95411E3D-0742-3C1F-0317-88E710181960}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GuardController.cs">
+    <Files>
+      <File FileName="Assets/MovementController.cs" Line="26" Column="1" />
+      <File FileName="Assets/EnemyController.cs" Line="10" Column="30" />
+      <File FileName="Assets/GuardController.cs" Line="8" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Programming_For_Designers_1.nosync" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="GuardController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bca86a5f-f639-4162-b710-eae87e5e25d1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
