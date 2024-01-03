@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{3305171e-01ff-4048-ab23-e3fd5a7d9dd8}">
+		<property name="assetPath">
+			<value>TaterJump-001.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6ba7388e-4137-49f3-899f-e61bed4721b8}</destination>
+		</relationship>
+	</object>
+</objects>

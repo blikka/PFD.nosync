@@ -1,7 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnity", "FMODUnity.csproj", "{4ED7B4AB-7EFB-AFAE-6DED-211158AF1416}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{95411E3D-0742-3C1F-0317-88E710181960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityEditor", "FMODUnityEditor.csproj", "{443E9F66-7EF3-5211-513B-DC0B20E4315C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityResonanceEditor", "FMODUnityResonanceEditor.csproj", "{6C0184B0-53C4-0752-94BC-7E4FC7CDEC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityResonance", "FMODUnityResonance.csproj", "{D870753E-1C91-BB33-6860-2FC6DA263562}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem.RebindingUI", "Unity.InputSystem.RebindingUI.csproj", "{F6DD915B-F630-939E-1F99-073D35E2414D}"
 EndProject
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ED7B4AB-7EFB-AFAE-6DED-211158AF1416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED7B4AB-7EFB-AFAE-6DED-211158AF1416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED7B4AB-7EFB-AFAE-6DED-211158AF1416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED7B4AB-7EFB-AFAE-6DED-211158AF1416}.Release|Any CPU.Build.0 = Release|Any CPU
 		{95411E3D-0742-3C1F-0317-88E710181960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{95411E3D-0742-3C1F-0317-88E710181960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95411E3D-0742-3C1F-0317-88E710181960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95411E3D-0742-3C1F-0317-88E710181960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443E9F66-7EF3-5211-513B-DC0B20E4315C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443E9F66-7EF3-5211-513B-DC0B20E4315C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443E9F66-7EF3-5211-513B-DC0B20E4315C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443E9F66-7EF3-5211-513B-DC0B20E4315C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0184B0-53C4-0752-94BC-7E4FC7CDEC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0184B0-53C4-0752-94BC-7E4FC7CDEC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0184B0-53C4-0752-94BC-7E4FC7CDEC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0184B0-53C4-0752-94BC-7E4FC7CDEC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D870753E-1C91-BB33-6860-2FC6DA263562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D870753E-1C91-BB33-6860-2FC6DA263562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D870753E-1C91-BB33-6860-2FC6DA263562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D870753E-1C91-BB33-6860-2FC6DA263562}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F6DD915B-F630-939E-1F99-073D35E2414D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F6DD915B-F630-939E-1F99-073D35E2414D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6DD915B-F630-939E-1F99-073D35E2414D}.Release|Any CPU.ActiveCfg = Release|Any CPU

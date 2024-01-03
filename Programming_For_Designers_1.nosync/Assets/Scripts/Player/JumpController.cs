@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using FMODUnity;
+using FMOD.Studio;
 
 public class JumpController : MonoBehaviour
 {
@@ -15,9 +17,13 @@ public class JumpController : MonoBehaviour
 
     [SerializeField] GroundController ground;
 
+    public EventReference jumpSound;
+
+
     private void Awake()
     {
         jump = playerControls.FindAction("jump");
+        jump.performed += _ => Jump();
     }
 
     private void OnEnable()
@@ -30,6 +36,15 @@ public class JumpController : MonoBehaviour
         jump.Disable();
     }
 
+    private void Jump()
+    {
+        if (ground.IsGrounded()) // Add parentheses here
+        {
+            rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+            RuntimeManager.PlayOneShot(jumpSound, transform.position);
+            Debug.Log("Jump sound should play"); // Add this line
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -39,11 +54,9 @@ public class JumpController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if (jump.WasPressedThisFrame() && ground.IsGrounded())
+        if (jump.WasPressedThisFrame())
         {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            Jump();
         }
-
     }
 }

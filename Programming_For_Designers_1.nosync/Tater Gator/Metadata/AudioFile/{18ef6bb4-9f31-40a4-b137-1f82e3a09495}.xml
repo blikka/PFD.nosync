@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{18ef6bb4-9f31-40a4-b137-1f82e3a09495}">
+		<property name="assetPath">
+			<value>TaterLand-001.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.33854166666666669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6ba7388e-4137-49f3-899f-e61bed4721b8}</destination>
+		</relationship>
+	</object>
+</objects>

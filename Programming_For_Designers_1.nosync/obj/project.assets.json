@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/power/Documents/ITU/Programming for Designers/Programming_For_Designers_1.nosync/Assembly-CSharp.csproj",
-      "projectName": "Assembly-CSharp",
-      "projectPath": "/Users/power/Documents/ITU/Programming for Designers/Programming_For_Designers_1.nosync/Assembly-CSharp.csproj",
+      "projectUniqueName": "/Users/power/Documents/ITU/Programming for Designers/Fríði-Programming-For-Designers/PFD.nosync/Programming_For_Designers_1.nosync/FMODUnity.csproj",
+      "projectName": "FMODUnity",
+      "projectPath": "/Users/power/Documents/ITU/Programming for Designers/Fríði-Programming-For-Designers/PFD.nosync/Programming_For_Designers_1.nosync/FMODUnity.csproj",
       "packagesPath": "/Users/power/.nuget/packages/",
-      "outputPath": "/Users/power/Documents/ITU/Programming for Designers/Programming_For_Designers_1.nosync/obj/",
+      "outputPath": "/Users/power/Documents/ITU/Programming for Designers/Fríði-Programming-For-Designers/PFD.nosync/Programming_For_Designers_1.nosync/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/power/.nuget/NuGet/NuGet.Config"
